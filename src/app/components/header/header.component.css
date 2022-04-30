@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  background-color: #212121;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  padding: 30px;
+}
+li {
+  margin-left: 40px;
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,system-ui, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+li:hover
+{
+   color:rgb(100, 255, 218, 0.7);
+   transition: ease-in .7;
+}
+
+li > button {
+  background-color: transparent;
+  border-color: rgb(100, 255, 218, 0.7);
+  padding: 6px 10px;
+  color: #64ffda;
+  border-width:1px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: xx-small;
+
+}
+
+span
+{
+   color: #64ffda;
+}
