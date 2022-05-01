@@ -3,6 +3,7 @@
   background-color: #212121;
   display: flex;
   justify-content: flex-end;
+  position: absolute;
 }
 
 ul {
@@ -14,7 +15,7 @@ li {
   list-style: none;
   cursor: pointer;
   color: #fff;
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,system-ui, sans-serif;
+
   font-weight: 100;
   font-size: 12px;
 }
