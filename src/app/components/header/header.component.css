@@ -3,7 +3,8 @@
   background-color: #212121;
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  position: fixed;
+  z-index: 999;
 }
 
 ul {
